@@ -2,9 +2,9 @@
 An app built for Power Up Hacks 2022 that makes finding jobs easier with Django, Python, HTML, and CSS.
 <br><br>
 **🔑Django Admin Login:**<br>
-Username : ```digio```
+Username : 
 <br>
-Password: ```poweruphacks```
+Password: 
 <br>
 
 <br>
