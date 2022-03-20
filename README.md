@@ -5,6 +5,7 @@ An app built for Power Up Hacks 2022 that makes finding jobs easier with Django,
 Username : ```digio```
 <br>
 Password: ```poweruphacks```
+<br>
 
 <br>
 <br>
