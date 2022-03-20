@@ -30,7 +30,7 @@ def register(request, job_slug):
     form = ApplicantForm()
     if request.method == 'GET':
         form = ApplicantForm()
-    if request.method == 'POST':
+    elif request.method == 'POST':
         form = ApplicantForm(request.POST)
         if form.is_valid():
             applicants,_ = Applicant.objects.get_or_create(name=form.cleaned_data['name'], location=form.cleaned_data['location'], email=form.cleaned_data['email'])
