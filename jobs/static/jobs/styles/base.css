@@ -1,0 +1,63 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-btn {
+    font-weight: 600;
+    text-decoration: none;
+    color: #2a2a2a;
+    transition: color 0.3s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+#nav {
+    display: flex;
+    float: right;
+    margin: 20px 0;
+    margin-right: 40px;
+}
+
+header {
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+
+#nav ul li a {
+    margin: 0px 10px;
+    max-width: 5vw;
+}
+
+li a:hover{
+    color: #437145;
+}
+
+.logo h2 {
+    position: absolute;
+    margin: 0.5vh 10px;
+    font-size: 40px;
+    height: auto;
+    float: left;
+    color: #2a2a2a;
+}
+
+.btn:hover {
+    background-color: #437145;
+}
+
+#logo {
+    transition: color 0.3s;
+}
+
+#logo:hover {
+    color: #437145;
+}

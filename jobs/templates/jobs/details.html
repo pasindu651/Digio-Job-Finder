@@ -1,0 +1,49 @@
+{% extends 'jobs/base/base.html' %}
+{% load static %}
+{% load job_tags %}
+
+{% block site_css %}
+<link rel="stylesheet" href="{% static 'jobs/styles/details.css'%}">
+{% endblock %}
+
+
+{% block body_content %}
+<div class="details-space">
+    <div class="details-format">
+        <div class="details">
+            <h3 id="job-header">{{job.title}}</h3>
+            <a href="{% url 'register' job.slug %}" id="apply-btn">Apply Now</a>
+            <div class="industry">
+                {% for i in industries_index %}
+                {% if i == industries_len %}
+                <p id="job-industry">{{industries|return_item:i}}</p>
+                {% else %}
+                <p id="job-industry">{{industries|return_item:i}}|</p>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+
+            <hr>
+            <h5>Company</h5>
+            <p id="job-company">{{job.company}}</p>
+            <hr>
+
+            <h5>Location</h5>
+            <p id="job-location">{{job.location}}</p>
+            <hr>
+
+            <h5>Description</h5>
+            <div class="word-wrap">
+                <p id="job-description">{{job.description}}</p>
+            </div>
+            <hr>
+
+            <h5>Employment Type</h5>
+            <p id="job-type">{{job.employment_type}}</p>
+            <hr>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

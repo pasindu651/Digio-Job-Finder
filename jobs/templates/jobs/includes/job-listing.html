@@ -1,0 +1,12 @@
+<div class="item">
+    <section class="listing">
+        <article class="job-listing">
+            <p id="job-title">{{title}}</p>
+            <p id="job-company">{{company}} | {{location}}</p>
+            <p id="job-time">{{time}}</p>
+            <div class="details-btn">
+                <a href="{% url 'details' job.slug %}">Learn More</a>
+            </div>
+        </article>
+    </section>
+</div>

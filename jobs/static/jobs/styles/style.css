@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sub {
+    font-size: 3vw;;
+    color: #a8a8a8;
+    font-weight: 400;
+}
+
+#header {
+    font-weight: 800;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #2a2a2a;
+    transition: background-color 0.3s;
+    color: white;
+    padding: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+}
+
+.btn a {
+    transition: background-color 0.3s;
+}
+
+.container {
+    padding-top: 18vh;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-container img {
+    max-width: 40vw;
+}
+
+.img-container {
+    position: absolute;
+    margin-left: auto;  
+    margin-left: 50%;
+}
+
+.slogan {
+    line-height: 0.5;
+    font-weight: 400;
+    font-size: 4vw;
+    margin-left: 4vw;
+    color: #2a2a2a;
+}
+

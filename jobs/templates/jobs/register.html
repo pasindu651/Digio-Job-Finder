@@ -1,0 +1,27 @@
+{% extends 'jobs/base/base.html' %}
+{% load static %}
+
+{% block site_css %}
+<link rel="stylesheet" href="{% static 'jobs/styles/register.css' %}">
+{% endblock %}
+
+
+{% block body_content %}
+<div class="info-header">
+    <p>Your Info</p>
+</div>
+
+<div class="form-format">
+    <div class="form-container">
+        <form action="{% url 'register' job.slug %}" method="POST" class="form">
+
+            {% csrf_token %}
+            <ul>
+                {{form.as_ul}}
+            </ul>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

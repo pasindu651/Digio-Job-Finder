@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form {
+    border: 2px solid #2a2a2a;
+
+    width: 30%;
+    padding: 40px;
+}
+
+.form-container {
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.form-format {
+    padding-top: 10vh;
+    line-height: 3vh;
+}
+
+.form input[type=text], input[type=email] {
+    font: inherit;
+    color: inherit;
+    padding: 5px;
+    border: 2px solid #2a2a2a;
+    border-radius: 6px;
+}
+
+.form input {
+    width: 100%;
+}
+
+.form button {
+    text-decoration: none;
+    background-color: #2a2a2a;
+    color: white;
+    padding: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #437145;
+}
+
+.info-header {
+    color: #2a2a2a;
+    border: 2px solid transparent;
+}
+
+.info-header p {
+    margin-bottom: 30px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 78px;
+    font-weight: 800;
+}

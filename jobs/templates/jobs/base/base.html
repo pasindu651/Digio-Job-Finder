@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{% static 'jobs/styles/base.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,800;1,600&display=swap"
+        rel="stylesheet">
+    {% block site_css %}{% endblock %}
+</head>
+
+<body>
+    <header>
+        <div id="nav">
+            <ul>
+                <li><a href="{% url 'index' %}" class="nav-btn">Home</a></li>
+                <li><a href="{% url 'job-listings' %}" class="nav-btn">Find Jobs</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="logo">
+        <a href="{% url 'index' %}">
+            <h2 id="logo" href>Digio</h2>
+        </a>
+    </div>
+    <main>
+        {% block body_content %}{% endblock %}
+    </main>
+</body>
+</html>

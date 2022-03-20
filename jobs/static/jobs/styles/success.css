@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.success-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.success-format {
+    padding-top:25vh;
+}
+
+article :nth-child(1) {
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+a:link {
+    color: #437145;;
+}
+
+a:active {
+    color: #2a2a2a;;
+}

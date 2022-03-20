@@ -1,0 +1,76 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.details:nth-child(1) {
+    font-weight: 800;
+    color: #2a2a2a;
+    font-size: 3vw;
+}
+
+.details {
+    display: inline-block;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.details-format {
+    display: flex;
+    justify-content: center; 
+}
+
+#job-type {
+    display: inline;
+    font-weight: 40;
+    font-size: 2vw;
+}
+
+.word-wrap {
+    word-wrap: break-word;
+    width: 50vw;
+    background-color: transparent;
+    padding-left: 4vw;
+}
+
+.industry {
+    align-self: left;   
+}
+
+.details-space {
+    padding-top: 24vh;
+}
+
+hr {
+    width: 50%;
+    margin-top: 100px;
+    height: 2px;
+    border-width: 0;
+    color: #a8a8a8;
+    background-color: #a8a8a8;
+}
+
+.details p {
+    font-weight: 400;
+    display: inline;
+    font-size: 2vw;
+}
+
+.details a {
+    display: inline-block;
+    text-align: center;
+    line-height: 0.5;
+    text-decoration: none;
+    background-color: #2a2a2a;
+    color: white;
+    padding: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    margin-bottom: 3vh;
+}
+
+.details a:hover {
+    background-color: #437145;
+    transition: background-color 0.3s;
+}
+

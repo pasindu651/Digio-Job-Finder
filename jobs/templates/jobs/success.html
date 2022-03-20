@@ -1,0 +1,19 @@
+{% extends 'jobs/base/base.html' %}
+{% load static %}
+
+{% block site_css %}
+<link rel="stylesheet" href="{% static 'jobs/styles/success.css'%}">
+{% endblock %}
+
+{% block body_content %}
+<div class="success-format">
+    <div class="success-container">
+        <article id="success-message">
+            <p>Congratulations!</p>
+            <p>You have successfully applied for the {{position}} position at {{company}}.</p>
+            <p>Have questions? Please contact <a href="mailto:{{manager_email}}">{{manager_email}}</a> regarding any
+                questions.</p>
+        </article>
+    </div>
+</div>
+{% endblock %}
