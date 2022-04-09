@@ -5,6 +5,7 @@ A Web App built for Power Up Hacks 2022 that makes finding jobs easier with Djan
 
 ## Prerequisites 
 ```$ python -m pip install Django```
+<br>
 ```pip install django-filter```
 
 <br>
